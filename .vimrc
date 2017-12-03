@@ -99,17 +99,17 @@ endif
 " 追記終わり
 
 " vimprocだけは最初にインストールしてほしい
-if dein#check_install(['vimproc'])
-  call dein#add('Shougo/vimproc.vim', {
-      \ 'build': {
-      \     'windows' : 'tools\\update-dll-mingw',
-      \     'cygwin'  : 'make -f make_cygwin.mak',
-      \     'mac'     : 'make -f make_mac.mak',
-      \     'linux'   : 'make',
-      \     'unix'    : 'gmake',
-      \    },
-      \ })
-endif
+"if dein#check_install(['vimproc'])
+"  call dein#add('Shougo/vimproc.vim', {
+"      \ 'build': {
+"      \     'windows' : 'tools\\update-dll-mingw',
+"      \     'cygwin'  : 'make -f make_cygwin.mak',
+"      \     'mac'     : 'make -f make_mac.mak',
+"      \     'linux'   : 'make',
+"      \     'unix'    : 'gmake',
+"      \    },
+"      \ })
+"endif
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
   call dein#install()
