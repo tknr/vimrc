@@ -116,3 +116,6 @@ if dein#check_install()
 endif
 " }}}
 
+" php plugins
+call dein#add('violetyk/neocomplete-php.vim')
+let g:neocomplete_php_locale = 'ja'
