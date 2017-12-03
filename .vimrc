@@ -41,9 +41,9 @@ nnoremap k gk
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
-set list listchars=tab:\▸\-
+"set list listchars=tab:\▸\-
 " Tab文字を半角スペースにする
-set expandtab
+"set expandtab
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
 set tabstop=2
 " 行頭でのTab文字の表示幅
@@ -119,3 +119,5 @@ endif
 " php plugins
 call dein#add('violetyk/neocomplete-php.vim')
 let g:neocomplete_php_locale = 'ja'
+call dein#add('vim-scripts/PDV--phpDocumentor-for-Vim')
+
