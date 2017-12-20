@@ -37,3 +37,40 @@ on_i = 1
 [[plugins]]
 repo = 'Shougo/unite.vim'
 depends = 'neomru.vim'
+
+[[plugins]]
+repo = 'chase/vim-ansible-yaml'
+
+[[plugins]]
+repo = 'othree/html5.vim'
+
+[[plugins]]
+repo = 'tpope/vim-markdown'
+
+[[plugin]]
+repo = 'lmeijvogel/vim-yaml-helper'
+
+[[plugin]]
+repo = 'pangloss/vim-javascript'
+
+[[plugin]]
+repo = 'mxw/vim-jsx'
+
+[[plugin]]
+repo = 'mtscout6/vim-cjsx'
+
+[[plugin]]
+repo = 'flowtype/vim-flow'
+
+[[plugin]]
+repo = 'moll/vim-node'
+
+[[plugin]]
+repo = 'benjie/neomake-local-eslint'
+
+[[plugin]]
+repo = 'tpope/vim-git'
+
+[[plugin]]
+repo = 'vim-scripts/bash-support'
+
